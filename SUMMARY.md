@@ -30,7 +30,12 @@
 * [5.2 VPC Flow 기반 모니터링](5.-network-monitoring/5.2.vpc-flow.md)
 * [5.3 VPC Traffic Mirror](5.-network-monitoring/5.3.vpc-traffic-mirror.md)
 
-## 6.Tip
+## 6. System Manager 기반 접속
 
-* [6.1 Cheat Sheat](6.tip/6.1.cheat-sheat.md)
+* [6.1.System Manager 소개](6.-system-manager/6.1.system-manager-overview.md)
+* [6.2.2.Session Manager 기반 접속](6.-system-manager/6.2.2.session-manager.md)
+
+## Tip
+
+* [Cheat Sheat](tip/cheat-sheat.md)
 
