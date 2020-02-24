@@ -13,16 +13,19 @@
 
 * [2.1 CGW VPC 구성](2.-cgw-vpc/2.1.cgw-vpc.md)
 * [2.2 VGW-CGW 연결 구성](2.-cgw-vpc/2.2.vgw-cgw.md)
+* [2.3 TGW 기반 CGW 트래픽제어](2.-cgw-vpc/2.3.tgw-vpc-traffic-control.md)
 
 ## 3.MultiAccount 연동
 
 * [3.1 Multiaccount VPC 구성](3.multiaccount/3.1.multiaccount-vpc.md)
 * [3.2 RAM기반의 MultiAccount TGW 구성](3.multiaccount/3.2.ram-multiaccount-tgw.md)
+* [3.3 MultiAccount VPC 트래픽제어](3.multiaccount/3.3.multiaccount-vpc-traffic-control.md)
 
 ## 4. MultiRegion TGW 구성
 
 * [4.1 Multiregion VPC 구성](4.-multiregion-tgw/4.1.multiregion-vpc.md)
 * [4.2 MultiRegion TGW 연결 구성](4.-multiregion-tgw/4.2.multiregion-tgw.md)
+* [4.3 MultiRegion TGW 기반 트래픽 제어](4.-multiregion-tgw/4.3.multiregion-tgw-traffic-control.md)
 
 ## 5. Network Monitoring
 
@@ -37,6 +40,6 @@
 
 ## Appendix
 
-* [Cloudformation](appendix/cloudformation.md)
+* [Cloudformation 구성소개](appendix/cloudformation.md)
 * [Cheat Sheat](appendix/6.1.cheat-sheat.md)
 
