@@ -1,3 +1,9 @@
+---
+description: >-
+  Update : 2020-02-26 / Written by - WOO HYUNG CHOI (whchoi@amazon.com ,
+  whchoi98@gmail.com)
+---
+
 # AWS Hybrid Networking Workshop
 
 ## AWS Hybrid Networking Workshop - Hands on LAB Guide
