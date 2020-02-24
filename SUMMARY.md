@@ -6,7 +6,7 @@
 
 * [1.1 Transit Gateway 소개](1.transit-gateway/1.1.tgw-overview.md)
 * [1.2 TGW를 위한 VPC 구성](1.transit-gateway/1.2.tgw-vpc.md)
-* [1.3 TGW 구성 확인](1.transit-gateway/1.3.tgw-check.md)
+* [1.3 TGW 구성](1.transit-gateway/1.3.tgw-check.md)
 * [1.4 TGW 기반 VPC 트래픽 제어](1.transit-gateway/1.4.tgw-vpc-traffic-control.md)
 
 ## 2. CGW VPC 구성
@@ -35,7 +35,8 @@
 * [6.1.System Manager 소개](6.-system-manager/6.1.system-manager-overview.md)
 * [6.2.2.Session Manager 기반 접속](6.-system-manager/6.2.2.session-manager.md)
 
-## Tip
+## Appendix
 
-* [Cheat Sheat](6.tip/6.1.cheat-sheat.md)
+* [Cloudformation](appendix/cloudformation.md)
+* [Cheat Sheat](appendix/cheat-sheat.md)
 
