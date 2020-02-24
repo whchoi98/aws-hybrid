@@ -12,5 +12,5 @@
 
 ### [Module 5. Monitoring](5.-network-monitoring/5.1.tgw-network-manager.md) - 2h
 
-### [Module 6. System Manager 기반 접속]() - 30m
+### [Module 6. System Manager 기반 접속](./) - 30m
 
