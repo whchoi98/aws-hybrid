@@ -1,43 +1,30 @@
 # Table of contents
 
 * [AWS Hybrid Networking Workshop](README.md)
-
-## 1.Transit Gateway 구성
-
-* [1.1 Transit Gateway 소개](1.transit-gateway/1.1.tgw-overview/README.md)
-  * [test](1.transit-gateway/1.1.tgw-overview/test.md)
-* [1.2 TGW를 위한 VPC 구성](1.transit-gateway/1.2.tgw-vpc.md)
-* [1.3 TGW 구성](1.transit-gateway/1.3.tgw-check.md)
-* [1.4 TGW 기반 VPC 트래픽 제어](1.transit-gateway/1.4.tgw-vpc-traffic-control.md)
-
-## 2. CGW VPC 구성
-
-* [2.1 CGW VPC 구성](2.-cgw-vpc/2.1.cgw-vpc.md)
-* [2.2 VGW-CGW 연결 구성](2.-cgw-vpc/2.2.vgw-cgw.md)
-* [2.3 TGW 기반 CGW 트래픽제어](2.-cgw-vpc/2.3.tgw-vpc-traffic-control.md)
-
-## 3.MultiAccount 연동
-
-* [3.1 Multiaccount VPC 구성](3.multiaccount/3.1.multiaccount-vpc.md)
-* [3.2 RAM기반의 MultiAccount TGW 구성](3.multiaccount/3.2.ram-multiaccount-tgw.md)
-* [3.3 MultiAccount VPC 트래픽제어](3.multiaccount/3.3.multiaccount-vpc-traffic-control.md)
-
-## 4. MultiRegion TGW 구성
-
-* [4.1 Multiregion VPC 구성](4.-multiregion-tgw/4.1.multiregion-vpc.md)
-* [4.2 MultiRegion TGW 연결 구성](4.-multiregion-tgw/4.2.multiregion-tgw.md)
-* [4.3 MultiRegion TGW 기반 트래픽 제어](4.-multiregion-tgw/4.3.multiregion-tgw-traffic-control.md)
-
-## 5. Network Monitoring
-
-* [5.1 TGW Network Manager](5.-network-monitoring/5.1.tgw-network-manager.md)
-* [5.2 VPC Flow 기반 모니터링](5.-network-monitoring/5.2.vpc-flow.md)
-* [5.3 VPC Traffic Mirror](5.-network-monitoring/5.3.vpc-traffic-mirror.md)
-
-## 6. System Manager 기반 접속
-
-* [6.1.System Manager 소개](6.-system-manager/6.1.system-manager-overview.md)
-* [6.2.2.Session Manager 기반 접속](6.-system-manager/6.2.2.session-manager.md)
+* [1.Trangit Gwatway 구성](1.trangit-gwatway/README.md)
+  * [1.1 Transit Gateway 소개](1.trangit-gwatway/1.1.tgw-overview.md)
+  * [1.2 TGW를 위한 VPC 구성](1.trangit-gwatway/1.2.tgw-vpc.md)
+  * [1.3 TGW 구성](1.trangit-gwatway/1.3.tgw-check.md)
+  * [1.4 TGW 기반 VPC 트래픽 제어](1.trangit-gwatway/1.4.tgw-vpc-traffic-control.md)
+* [2. CGW VPC 구성](2.-cgw-vpc-1/README.md)
+  * [2.1 CGW VPC 구성](2.-cgw-vpc-1/2.1.cgw-vpc.md)
+  * [2.2 VGW-CGW 연결 구성](2.-cgw-vpc-1/2.2.vgw-cgw.md)
+  * [2.3 TGW 기반 CGW 트래픽제어](2.-cgw-vpc-1/2.3.tgw-vpc-traffic-control.md)
+* [3. MultiAccount 연동](3.-multiaccount/README.md)
+  * [3.1 Multiaccount VPC 구성](3.-multiaccount/3.1.multiaccount-vpc.md)
+  * [3.2 RAM기반의 MultiAccount TGW 구성](3.-multiaccount/3.2.ram-multiaccount-tgw.md)
+  * [3.3 MultiAccount VPC 트래픽제어](3.-multiaccount/3.3.multiaccount-vpc-traffic-control.md)
+* [4.MultiRegion TGW 구성](4.multiregion-tgw/README.md)
+  * [4.1 Multiregion VPC 구성](4.multiregion-tgw/4.1.multiregion-vpc.md)
+  * [4.2 MultiRegion TGW 연결 구성](4.multiregion-tgw/4.2.multiregion-tgw.md)
+  * [4.3 MultiRegion TGW 기반 트래픽 제어](4.multiregion-tgw/4.3.multiregion-tgw-traffic-control.md)
+* [5. Network Monitoring](5.-network-monitoring-1/README.md)
+  * [5.1 TGW Network Manager](5.-network-monitoring-1/5.1.tgw-network-manager.md)
+  * [5.2 VPC Flow 기반 모니터링](5.-network-monitoring-1/5.2.vpc-flow.md)
+  * [5.3 VPC Traffic Mirror](5.-network-monitoring-1/5.3.vpc-traffic-mirror.md)
+* [6. System Manager 기반 접속](6.-system-manager-1/README.md)
+  * [6.1.System Manager 소개](6.-system-manager-1/6.1.system-manager-overview.md)
+  * [6.2.Session Manager 기반 접속](6.-system-manager-1/6.2.2.session-manager.md)
 
 ## Appendix
 
