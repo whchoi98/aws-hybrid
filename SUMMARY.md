@@ -38,5 +38,5 @@
 ## Appendix
 
 * [Cloudformation](appendix/cloudformation.md)
-* [Cheat Sheat](appendix/cheat-sheat.md)
+* [Cheat Sheat](6.tip/6.1.cheat-sheat.md)
 
