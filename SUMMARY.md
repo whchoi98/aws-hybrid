@@ -1,11 +1,11 @@
 # Table of contents
 
 * [AWS Hybrid Networking Workshop](README.md)
-* [1.Trangit Gwatway 구성](1.trangit-gwatway/README.md)
-  * [1.1 Transit Gateway 소개](1.trangit-gwatway/1.1.tgw-overview.md)
-  * [1.2 TGW를 위한 VPC 구성](1.trangit-gwatway/1.2.tgw-vpc.md)
-  * [1.3 TGW 구성](1.trangit-gwatway/1.3.tgw-check.md)
-  * [1.4 TGW 기반 VPC 트래픽 제어](1.trangit-gwatway/1.4.tgw-vpc-traffic-control.md)
+* [1.Transit Gwatway 구성](1.transit-gwatway/README.md)
+  * [1.1 Transit Gateway 소개](1.transit-gwatway/1.1.tgw-overview.md)
+  * [1.2 TGW를 위한 VPC 구성](1.transit-gwatway/1.2.tgw-vpc.md)
+  * [1.3 TGW 구성](1.transit-gwatway/1.3.tgw-check.md)
+  * [1.4 TGW 기반 VPC 트래픽 제어](1.transit-gwatway/1.4.tgw-vpc-traffic-control.md)
 * [2. CGW VPC 구성](2.-cgw-vpc-1/README.md)
   * [2.1 CGW VPC 구성](2.-cgw-vpc-1/2.1.cgw-vpc.md)
   * [2.2 VGW-CGW 연결 구성](2.-cgw-vpc-1/2.2.vgw-cgw.md)

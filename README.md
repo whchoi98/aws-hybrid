@@ -8,7 +8,7 @@ description: >-
 
 ## AWS Hybrid Networking Workshop - Hands on LAB Guide
 
-### [Module 1. Transit Gateway](1.trangit-gwatway/) - 2h
+### [Module 1. Transit Gateway](1.transit-gwatway/) - 2h
 
 ### [Module 2. Cutomer Gateway](2.-cgw-vpc-1/2.1.cgw-vpc.md) - 1h
 
