@@ -1,4 +1,4 @@
-# 1.Transit Gwatway 구성
+# 1.Transit Gateway 구성
 
 ### Chapter 1. Trangit Gateway 구성
 

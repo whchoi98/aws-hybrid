@@ -1,7 +1,7 @@
 # Table of contents
 
 * [AWS Hybrid Networking Workshop](README.md)
-* [1.Transit Gwatway 구성](1.transit-gwatway/README.md)
+* [1.Transit Gateway 구성](1.transit-gwatway/README.md)
   * [1.1 Transit Gateway 소개](1.transit-gwatway/1.1.tgw-overview.md)
   * [1.2 TGW를 위한 VPC 구성](1.transit-gwatway/1.2.tgw-vpc.md)
   * [1.3 TGW 구성](1.transit-gwatway/1.3.tgw-check.md)
