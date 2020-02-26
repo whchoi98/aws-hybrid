@@ -10,5 +10,5 @@ description: 'Update : 2020-02-26'
 
 ### [2.2 VGW-CGW 연결 구](2.2.vgw-cgw.md)
 
-### [2.3 TGW 기반 CGW 트래픽 ](2.3.tgw-vpc-traffic-control.md)제
+### [2.3 TGW 기반 CGW 트래픽 제 ](2.3.tgw-vpc-traffic-control.md)
 
