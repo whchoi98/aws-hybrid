@@ -8,7 +8,7 @@ description: 'Update : 2020-02-27'
 
 ### 2.1 MultiAccount를 위한 TGW 디자인 소
 
-### 2.2 RAM 기반의 TGW 구성    
+### 2.2 RAM 기반의 TGW 구성과 제어      
 
 ###  
 
