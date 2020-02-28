@@ -45,6 +45,8 @@ output = json
 region = us-east-1
 ```
 
+아래 aws cli를 통해 현재 account에서 동작 중인 EC2 인스턴스를 확인합니다.
+
 ```text
 aws ec2 describe-instances --query 'Reservations[].Instances[].[Tags[?Key==`Name`] | [0].Value, Placement.AvailabilityZone,InstanceId, InstanceType, ImageId,State.Name, PrivateIpAddress, PublicIpAddress ]' --output table 
 
@@ -56,7 +58,42 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Tags[?Key==`Name
 +------------------+-------------+----------------------+-----------+------------------------+-------------+---------------+--------+
 ```
 
-### 2.2 RAM 기반의 TGW 구성과 제어      
+EC2 id를 확인 하고, aws ssm 명령어로 접속합니다.
+
+```text
+aws ssm start-session --target i-0a5f69553f56db9bc
+```
+
+Private Subnet에 연결된 EC2 인스턴스에서 현재 네트워크 연결 구성을 확인합니다.  
+인터넷을 제외한 어떠한 OCTANK 자원에 연결되지 않습니다. 이것은 OCTANK EC2 인스턴스들이 모두 Private Subnet에 속해 있기 때문입니다.
+
+```text
+[ec2-user@ip-10-5-14-100 TGW_CF]$ ./pingshell.sh
+Fri Feb 28 16:19:22 UTC 2020
+node www.aws.com is up
+node ITSVR-A is down
+node ITSVR-B is down
+node ASVR-A is down
+node ASVR-B is down
+node BSVR-A is down
+node BSVR-B is down
+node CSVR-A is down
+node CSVR-B is down
+node DSVR-A is down
+node DSVR-B is down
+node FSVR-A is down
+node FSVR-B is down
+node ZSVR-A is up
+node ZSVR-B is up
+```
+
+이제 IT OCTANK VPC와 다른 VPC연결을 위한 구성을 해 보겠습니다.
+
+### 2.2 RAM 기반의 TGW 구성과 제어   
+
+TGW\(Transit Gateway\)는 단일 Account에서 공유되는 AWS 자원입니다. 하지만 필요에 따라 같은 리전 안에서 서로 다른 Account\(계정\)에서 TGW를 함께 연결해서 사용한다면 간편한 구성과 고속의 전송 및 보안적인 요소들을 함께 사용 할 수 있습니다.
+
+AWS에서는 이러한 서로 다른 계정간 자원 공유와 정책을 적용하기 위해 RAM\(Resource Access Manager\) 기능을 지원하고 있습니다.   
 
 {% hint style="info" %}
 해당 웹사이트는 크롬, 파이어폭스, 사파리 웹 브라우저에 최적화되어 있습니다.  인터넷 익스플로러에서는 원할하게 보이지 않을 수 있습니다.
