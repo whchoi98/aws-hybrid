@@ -6,7 +6,55 @@ description: 'Update : 2020-02-27'
 
 ### Chapter 3. MultiAccount 연동 
 
-### 2.1 MultiAccount를 위한 TGW 디자인 소개 
+### 2.1 MultiAccount를 위한 TGW 디자인 소개
+
+이전 랩과 동일하게 git에서 복제한 Cloudformation Stack 중에  "3.multiaccount.yml" 파일을 선택하여 배포합니다. 이 Stack은 "ITOCTANK.yml"과 유사하며 IGW, NATGW, Security Group, VPC, Subnet, Routing Table, SSM구성을 위한 IAM Role생성, EIP 생성, VPC Endpoint 생성 등을 포함하고 있습니다.
+
+아래 그림과 같이 Cloudformation 에서 Stack을 생성합니다.
+
+![\[&#xADF8;&#xB9BC; 3.1.1 Multi Account VPC &#xBC30;&#xD3EC;1\]](../.gitbook/assets/3.1.2.cloudformation1.png)
+
+![\[&#xADF8;&#xB9BC; 3.1.3 Multi Account VPC &#xBC30;&#xD3EC;2\]](../.gitbook/assets/3.1.3.cloudformation2.png)
+
+![\[&#xADF8;&#xB9BC; 3.1.3 Multi Account VPC &#xBC30;&#xD3EC;3\]](../.gitbook/assets/3.1.4.cloudformation3.png)
+
+![\[&#xADF8;&#xB9BC; 3.1.4 Multi Account VPC &#xBC30;&#xD3EC; &#xD655;&#xC778;\]](../.gitbook/assets/3.1.5.cloudformation4.png)
+
+\[VPC\] - \[ Subnet\] 을 선택하여 정상적으로 자원들이 생성되었는지 확인합니다.
+
+![\[&#xADF8;&#xB9BC; 3.1.5 Multi Account VPC &#xC790;&#xC6D0; &#xD655;&#xC778;\]](../.gitbook/assets/3.1.6.cloudformation5.png)
+
+EC2 인스턴스에 접속하여 정상동작하는지 확인합니다.  
+Account가 다르므로 , AWS CLI에서 환경을 스위치하여 확인합니다.
+
+```text
+export AWS_DEFAULT_PROFILE="Profile name"
+```
+
+```text
+# 아래 예제에서 여러개의 프로파일이 생성되어 있는 것을 확인
+more ~/.aws/config
+[default]
+region = us-east-1
+output = json
+[profile whchoi01]
+output = json
+region = us-east-1
+[profile whchoi02]
+output = json
+region = us-east-1
+```
+
+```text
+aws ec2 describe-instances --query 'Reservations[].Instances[].[Tags[?Key==`Name`] | [0].Value, Placement.AvailabilityZone,InstanceId, InstanceType, ImageId,State.Name, PrivateIpAddress, PublicIpAddress ]' --output table 
+
+-------------------------------------------------------------------------------------------------------------------------------------
+|                                                         DescribeInstances                                                         |
++------------------+-------------+----------------------+-----------+------------------------+-------------+---------------+--------+
+|  ZOCTANK-Server-A|  us-east-1a |  i-0a5f69553f56db9bc |  t3.small |  ami-0ba97d2d221b828c8 |  running    |  10.5.14.100  |  None  |
+|  ZOCTANK-Server-B|  us-east-1b |  i-0700f6d856f7802de |  t3.small |  ami-0ba97d2d221b828c8 |  running    |  10.5.22.100  |  None  |
++------------------+-------------+----------------------+-----------+------------------------+-------------+---------------+--------+
+```
 
 ### 2.2 RAM 기반의 TGW 구성과 제어      
 
