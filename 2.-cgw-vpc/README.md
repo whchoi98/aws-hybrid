@@ -1,5 +1,5 @@
 ---
-description: 'Update : 2020-02-26'
+description: 'Update : 2020-02-25'
 ---
 
 # 2. CGW VPC 구성
