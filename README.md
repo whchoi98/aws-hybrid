@@ -2,9 +2,9 @@
 description: 'Update : 2020-02-26'
 ---
 
-# AWS Hybrid Networking Workshop
+# AWS Hybrid Networking - Hands on Lab
 
-## AWS Hybrid Networking Workshop - Hands on LAB Guide
+## AWS Hybrid Networking - Hands on LAB Guide
 
 ### [Module 1. Transit Gateway](1.transit-gwatway/) - 2h
 
