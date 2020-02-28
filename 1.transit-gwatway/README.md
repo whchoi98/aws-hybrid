@@ -1,3 +1,7 @@
+---
+description: 'Update : 2020-02-24'
+---
+
 # 1.Transit Gateway 구성
 
 ### Chapter 1. Trangit Gateway 구성
