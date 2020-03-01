@@ -6,7 +6,7 @@ description: 'Update : 2020-02-28'
 
 ### Chapter 4. MultiAccount 연동 
 
-### 4.1 Multiregion VPC 구
+### 4.1 Multiregion VPC 구성 
 
 ### 4.2 MultiRegion TGW 연결 구성
 
