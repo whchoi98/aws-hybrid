@@ -6,11 +6,11 @@ description: 'Update : 2020-02-28'
 
 ### Chapter 4. MultiAccount 연동 
 
-### 4.1 Multiregion VPC 구성 
+### 4.1 Multiregion VPC 연결 구성 1
 
-### 4.2 MultiRegion TGW 연결 구성
+### 4.2 MultiRegion TGW 연결 구성 2
 
-### 4.3 MultiRegion TGW 기반 트래픽 제
+### 4.3 TGW 트래픽 제어 
 
 
 
