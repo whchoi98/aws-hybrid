@@ -8,9 +8,9 @@ description: 'Update : 2020-02-28'
 
 ### [4.1 Multiregion VPC 연결 구성 1](4.1.multiregion-vpc.md)
 
-### 4.2 MultiRegion TGW 연결 구성 2
+### [4.2 MultiRegion TGW 연결 구성 2](4.2.multiregion-tgw.md)
 
-### 4.3 TGW 트래픽 제어 
+### [4.3 TGW 트래픽 제어 ](4.3.multiregion-tgw-traffic-control.md)
 
 
 
