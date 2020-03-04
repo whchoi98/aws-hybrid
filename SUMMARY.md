@@ -23,6 +23,7 @@
   * [5.2 VPC Flow 기반 모니터링](5.-network-monitoring/5.2.vpc-flow.md)
   * [5.3 VPC Traffic Mirror](5.-network-monitoring/5.3.vpc-traffic-mirror.md)
 * [6. System Manager 기반 접속](6.-system-manager/README.md)
+  * [Untitled](6.-system-manager/untitled.md)
   * [6.1.System Manager 소개](6.-system-manager/6.1.system-manager-overview.md)
   * [6.2.Session Manager 기반 접속](6.-system-manager/6.2.2.session-manager.md)
 
