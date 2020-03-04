@@ -14,7 +14,7 @@ description: 'Update : 2020-02-26'
 
 ### [Module 4. MultiRegion Trangit Gateway 구성](4.multiregion-tgw/4.1.multiregion-vpc.md) - 1h
 
-### [Module 5. Monitoring](5.-network-monitoring/5.1.tgw-network-manager.md) - 2h
+### [Module 5. Monitoring](5networkmonitoring/5.1.tgw-network-manager.md) - 2h
 
 ### [Module 6. System Manager 기반 접속](./) - 30m
 
