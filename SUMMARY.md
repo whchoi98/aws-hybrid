@@ -23,7 +23,6 @@
   * [5.2 VPC Flow 소개](5networkmonitoring/5.2.vpc-flow-overview.md)
   * [5.3 VPC Flow 기반 모니터링1](5networkmonitoring/5.3-vpc-flow1.md)
   * [5.4.VPC Flow 기반 모니터링2](5networkmonitoring/5.4.vpc-flow-2.md)
-  * [5.5.VPC Flow 기반 SNS](5networkmonitoring/5.5.vpc-flow-sns.md)
   * [5.5 VPC Traffic Mirror](5networkmonitoring/5.5.vpc-traffic-mirror.md)
 * [6. System Manager 기반 접속](6.-system-manager/README.md)
   * [Untitled](6.-system-manager/untitled.md)
