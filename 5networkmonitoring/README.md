@@ -4,17 +4,9 @@
 
 ### [5.1 Transit Gateway - Network Manager](5.1.tgw-network-manager.md)
 
-### [5.2 VPC Flow 소개](5.2.vpc-flow-overview.md)
+### [5.2 VPC Flow 모니터링](5.2.vpc-flow-overview.md)
 
-### [5.3 VPC Flow 기반 모니터링1](5.3-vpc-flow1.md)
-
-### [5.4 VPC Flow 기반 모니터링2](5.4.vpc-flow-2.md)
-
-### [5.5 VPC Traffic Mirror](5.5.vpc-traffic-mirror.md)
-
-### \*\*\*\*
-
-
+### \*\*\*\*[**5.3 VPC Traffic Mirror**](5.5.vpc-traffic-mirror.md)\*\*\*\*
 
 ### 
 
