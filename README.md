@@ -16,6 +16,8 @@ description: 'Update : 2020-02-26'
 
 ### [Module 5. Network Monitoring](5networkmonitoring/5.1.tgw-network-manager.md) - 2h
 
+### AWS TEST
+
 ### 
 
 {% hint style="info" %}
